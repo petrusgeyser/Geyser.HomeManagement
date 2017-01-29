@@ -1,8 +1,8 @@
 ﻿@model Geyser.HomeManagement.Models.CreateModel
 
 @{
-    ViewBag.Title = "Create User";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+	ViewBag.Title = "Create User";
+	Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <h2>Create User</h2>
@@ -11,7 +11,7 @@
 {
 	<div class="form-group">
 		<label>Name</label>
-		@Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+		@Html.TextBoxFor(x => x.Username, new { @class = "form-control" })
 	</div>
 	<div class="form-group">
 		<label>Email</label>

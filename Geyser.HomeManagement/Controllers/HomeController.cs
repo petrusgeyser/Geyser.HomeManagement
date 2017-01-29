@@ -6,13 +6,13 @@ using System.Web.Mvc;
 
 namespace Geyser.HomeManagement.Controllers
 {
-    public class HomeController : Controller
-    {
+	public class HomeController : Controller
+	{
 		// GET: Home
 		[Authorize]
 		public ActionResult Index()
-        {
-            return View();
-        }
-    }
+		{
+			return View();
+		}
+	}
 }

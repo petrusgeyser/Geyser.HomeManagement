@@ -446,6 +446,7 @@ fieldset[disabled] .btn-danger.active {
   background-repeat: repeat-x;
   border-color: #dca7a7;
 }
+
 .progress {
   background-image: -webkit-linear-gradient(top, #ebebeb 0%, #f5f5f5 100%);
   background-image:      -o-linear-gradient(top, #ebebeb 0%, #f5f5f5 100%);

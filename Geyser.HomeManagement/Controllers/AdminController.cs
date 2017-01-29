@@ -9,7 +9,7 @@ using System.Web.Mvc;
 namespace Geyser.HomeManagement.Controllers
 {
 	public class AdminController : Controller
-    {
+	{
 		public ActionResult Index()
 		{
 			return View(UserManager.Users);
@@ -32,7 +32,7 @@ namespace Geyser.HomeManagement.Controllers
 		{
 			if (ModelState.IsValid)
 			{
-				AppUser user = new AppUser { UserName = model.Name, Email = model.Email };
+				AppUser user = new AppUser { UserName = model.Username, Email = model.Email };
 				IdentityResult result = await UserManager.CreateAsync(user, model.Password);
 				
 				if (result.Succeeded)

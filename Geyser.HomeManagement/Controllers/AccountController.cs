@@ -11,7 +11,7 @@ namespace Geyser.HomeManagement.Controllers
 
 	[Authorize]
 	public class AccountController : Controller
-    {
+	{
 		[AllowAnonymous]
 		public ActionResult Login(string returnUrl)
 		{
@@ -27,7 +27,10 @@ namespace Geyser.HomeManagement.Controllers
 		[ValidateAntiForgeryToken]
 		public ActionResult Login(LoginModel details, string returnUrl)
 		{
+			ModelState.AddModelError("", "Error logging in. The username or password may be incorrect.");
+
 			return View(details);
+
 		}
 	}
 }
