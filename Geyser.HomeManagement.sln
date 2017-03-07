@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geyser.HomeManagement", "Geyser.HomeManagement\Geyser.HomeManagement.csproj", "{5FC37047-0E2E-42A6-B76E-5B288F16BC14}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geyser.HomeManagement.WebAPI", "Geyser.HomeManagement.WebAPI\Geyser.HomeManagement.WebAPI.csproj", "{1A5A171E-4009-4FB4-9E44-43004C3C7777}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geyser.HomeManagement.Web", "Geyser.HomeManagement.Web\Geyser.HomeManagement.Web.csproj", "{814D3782-79A7-4899-8D72-7FF873EF154F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{5FC37047-0E2E-42A6-B76E-5B288F16BC14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FC37047-0E2E-42A6-B76E-5B288F16BC14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FC37047-0E2E-42A6-B76E-5B288F16BC14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A5A171E-4009-4FB4-9E44-43004C3C7777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A5A171E-4009-4FB4-9E44-43004C3C7777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A5A171E-4009-4FB4-9E44-43004C3C7777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A5A171E-4009-4FB4-9E44-43004C3C7777}.Release|Any CPU.Build.0 = Release|Any CPU
+		{814D3782-79A7-4899-8D72-7FF873EF154F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{814D3782-79A7-4899-8D72-7FF873EF154F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{814D3782-79A7-4899-8D72-7FF873EF154F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{814D3782-79A7-4899-8D72-7FF873EF154F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

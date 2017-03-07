@@ -14,5 +14,15 @@ namespace Geyser.HomeManagement.Controllers
 		{
 			return View();
 		}
+
+		public ActionResult About()
+		{
+			return View();
+		}
+
+		public ActionResult ContactUs()
+		{
+			return View();
+		}
 	}
 }
