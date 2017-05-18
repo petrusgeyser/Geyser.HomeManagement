@@ -111,12 +111,37 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app.js" />
+    <Content Include="appSettings.js" />
     <Content Include="packages.config" />
-    <Content Include="ApplicationInsights.config">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    <None Include="Pages\Home\home.tmpl" />
+    <Content Include="Pages\Home\home.js" />
+    <None Include="Pages\Home\homeMessage.tmpl" />
+    <Content Include="Scripts\diffDOM\diffDOM.js" />
+    <Content Include="Scripts\diffDOM\LICENSE.txt" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.1.1.min.map" />
+    <Content Include="Scripts\loglevel-master\loglevel.js" />
+    <Content Include="Scripts\loglevel-master\loglevel.min.js" />
+    <Content Include="Scripts\SAL.Router.js" />
+    <Content Include="Scripts\SAL.Template.1.0.0.3.js" />
+    <Content Include="Scripts\SAL.Utility.1.0.0.0.js" />
+    <Content Include="Scripts\Trump\Trump.js" />
+    <Content Include="Scripts\Trump\Trump.min.js" />
+    <Content Include="Styles\Default.scss" />
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
+    <Content Include="Scripts\diffDOM\README.md" />
+    <None Include="Styles\Styles.scss" />
+    <Content Include="Styles\Styles.css">
+      <DependentUpon>Styles.scss</DependentUpon>
+    </Content>
+    <Content Include="Styles\Styles.min.css">
+      <DependentUpon>Styles.css</DependentUpon>
+    </Content>
+    <Content Include="Styles\Variables.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
