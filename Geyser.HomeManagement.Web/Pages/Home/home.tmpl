@@ -1,8 +1,0 @@
-﻿<h1><%=header %></h1>
-<p>This is our home page.  Home sweet home.</p>
-<% for (var i =	0, l = bodyMessages.length; i < l; i++) { %>
-	<%=SAL.Template.render("tmplHomeMessage", { "message": bodyMessages[i] }) %>
-<% } %>
-<div sal-event="click:clock_click,mouseover:clock_mouseover">
-	<code><%=now.toString() %></code>
-</div>
